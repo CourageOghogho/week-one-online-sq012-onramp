@@ -6,3 +6,5 @@ function secondLargest(arr) {
   
 }
 module.exports = secondLargest
+
+console.log(secondLargest([23,1,2,3,20,5,6,7,8,9]));
