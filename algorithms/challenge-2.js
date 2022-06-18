@@ -1,5 +1,5 @@
 function filterArray(arr) {
-    //author: Courage Oghogho
+    //author: Courage
     // returns array of only integers
     return numOnlyArr=arr.filter((item)=>{return(typeof item === "number")});
 }

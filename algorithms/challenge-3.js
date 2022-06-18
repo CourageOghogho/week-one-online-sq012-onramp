@@ -1,5 +1,5 @@
 function sumMix(arr) {
-    //author: Courage Oghogho
+    //author: Courage
     let sum=0;
     let properArray=arr.map((elem)=>{return parseInt(elem, 10);});
     properArray.map((elem)=>{return sum+=elem;});

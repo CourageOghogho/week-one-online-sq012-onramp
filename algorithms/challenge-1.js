@@ -1,5 +1,5 @@
 function secondLargest(arr) {
-    //author: Courage Oghogho
+    //author: Courage
     //decagon challenge
     let arrSorted=arr.sort((a,b)=>{return b-a;});
     return arrSorted[1];
