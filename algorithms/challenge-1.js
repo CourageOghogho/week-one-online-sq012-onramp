@@ -3,7 +3,7 @@ function secondLargest(arr) {
     return sortedArr[1];
 }
 module.exports = secondLargest
-console.log(secondLargest([1,4,7,10,5,100]))
+   
 
 
 
