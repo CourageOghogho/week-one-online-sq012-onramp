@@ -1,26 +1,50 @@
 
-.main{
+body{
+    background-color: #c2c2d1;
+}
+
+.back{
+    background-color: #ea4c3c;
+    border-radius: 30px;
+    width: 20px;
+    height: 100%;
+    border: 3px solid green;
+    position: relative;
+}
+
+.card{
+    border-radius: 20px;
+    width: 70%;
+    border: 2px solid red;
     display: flex;
-}
-
-
-
-.profile-picture{
-    width: 50px;
-    height: 50px;
-}
-
-
-.main{
     color: #9292ae;
+    justify-content: center;
+    background-color: aliceblue;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding-bottom: 30px;
+    
+}
+
+
+.name{
+   border-bottom: 0px;
+   padding-bottom: 0px;
+   color: #393a62;
+   font-size: 2vp;
+   
+}
+.handle{
+    border-top: 0px;
+    padding-top: 0px;
 }
 
 .menu-pain{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     width: 20%;
+    padding-left: 2rem;
 
     
 }
@@ -36,11 +60,12 @@
     padding-top: 0px;
     padding-bottom: 0px;
 }
+
 .profile-picture{
     width: 50px;
-    height: 50px;
+    height: 60px;
+    padding-top: 5px;
 }
-
 
 
 
@@ -49,13 +74,37 @@
 .content-pain{
     width: 50%;
 }
+.page-header{
+    color: #393a62;
+}
+table{
+    width: 100%;
+    vertical-align: middle;
+}
+th, td{
+    text-align: left;
+    color: #747399;
+    text-decoration: 3px solid #393a62;
+}
+tr{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+ #load{
+    color: #ea4c3c;
+}
 
 .sticker{
+    padding-left: 3rem;
     border-top: 20%;
-    width: 30%;
+    width: 20%;
     height:40%;
     background-color: #ea4c3c;
     color: white;
     border-radius: 1rem;
+    margin-top: 3rem;
  
 }
+
+
