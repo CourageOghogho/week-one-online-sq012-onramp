@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+  <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <title>Frontend Assignment: Dashboard</title>
+</head>
+
+<body>
+  <main class="main">
+    <div class="menu-pain">
+      <div class="top-menu">
+        <div class="profile">
+          <img src="/frontend/images/avata.webp" alt="picture here" class="profile-picture" />
+          <div class="profile-details">
+            <p><strong> </p>Profile-name </strong></p>
+            <p>@Profile-handle</p>
+          </div>
+        </div>
+        <div class="menu">
+          <box-icon name='checkbox'></box-icon>General<br>
+          <i class="fa-solid fa-unlock-keyhole"></i>Password<br>
+          <i class="fa-solid fa-code-pull-request"></i>Invitation<br>
+          <i class="fa-solid fa-money-bill-trend-up"></i>Billing<br>
+          <i class="fa-solid fa-tablet-screen-button"></i>App</i>
+        </div>
+      </div>
+      <div class="logout">
+        <i class="fa-solid fa-arrow-right-from-bracket"></i>logout
+      </div>
+    </div>
+
+
+    <div class="content-pain">
+      <h1 class="page-header">Billing</h1>
+      <div class="table-description">
+        <h3>Order History</h3>
+        <p>Manage billing information and view receipts</p>
+      </div>
+      <table>
+        <thead>
+          <th>Date</th>
+          <th>Type</th>
+          <th>Receipt</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Oct, 21, 2022</td>
+            <td>Post Annual</td>
+            <td><a href=""><button>Download</button></a></td>
+          </tr>
+          <tr>
+            <td>Aug, 21, 2022</td>
+            <td>Post Portfolio</td>
+            <td><a href=""><button>Download</button></a></td>
+          </tr>
+          <tr>
+            <td>JulyOct, 21, 2022</td>
+            <td>Sponsored Post</td>
+            <td><a href=""><button>Download</button></a></td>
+          </tr>
+          <tr>
+            <td>June, 21, 2022</td>
+            <td>Sponsored Post</td>
+            <td><a href=""><button>Download</button></a></td>
+          </tr>
+        </tbody>
+      </table>
+      <button>Load more</button>
+      <div class="payment-method">
+        <h3>Payment method</h3>
+        <p>Manage billing information and view receipts</p>
+        <a href=""><button><i class="fa-brands fa-cc-visa"></i></button></a>Visa ending in 2055
+        <a href=""> <button>Remove</button></a>
+      </div>
+    </div>
+    <div class="sticker">
+      <h3>Your plan</h3>
+      <h1>Pro Annual</h1>
+      <p>Renew on Nov. 2021</p>
+      <button>Cancel Subscription</button>
+    </div>
+  </main>
+</body>
+
+</html>
